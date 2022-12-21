@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 import "./Slider.css";
 
 const Slider = ({image, title, subtitle, flipped}) => {
@@ -16,8 +17,10 @@ const Slider = ({image, title, subtitle, flipped}) => {
          <div className="slider-tile">
             <img src={ image } alt="" className="slider-img"/>
             <div className="slider-content">
-               <h1 className="slider-title">{ title }</h1>
-               <p>{ subtitle }</p>
+               <Link to={`/About`}>
+                  <h1 className="slider-title">{ title }</h1>
+                  <p className='slider-subtitle'>{ subtitle }</p>
+               </Link>
             </div>
          </div>
         
@@ -28,7 +31,7 @@ const Slider = ({image, title, subtitle, flipped}) => {
          <div className="slider-tile">
             <div className="slider-content">
                <h1 className="slider-title">{ title }</h1>
-               <p>{ subtitle }</p>
+               <p className='slider-subtitle'>{ subtitle }</p>
             </div>
             <img src={ image } alt="" className="slider-img"/>
          </div>

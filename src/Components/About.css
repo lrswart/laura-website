@@ -1,0 +1,109 @@
+.About {
+   max-width: 900px;
+   text-align: left;
+   margin: 40px auto;
+   padding: 20px;
+   color: black;
+}
+
+.header {
+   height: 300px;
+   /* line-height: 100px; */
+   text-align: center;
+   /* border: 3px solid black;  */
+   background-color: rgb(33, 47, 61);
+   /* padding-bottom: 20px; */
+   margin-bottom: 40px;
+   
+}
+
+.header-text {
+   display: inline-block;
+   /* vertical-align: middle; */
+   padding: 100px 0;
+   padding-left: 10px;
+   line-height: normal;
+   color: white;
+}
+
+.about-me-title {
+   /* padding: 0px, 10px, 10px, 10px; */
+   padding-bottom: 10px;
+   padding-top: 5px;
+}
+.about-me-panel {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 40px;
+   padding: 10px;
+   border: 1px solid rgb(235, 235, 235); 
+   -webkit-box-shadow: 0 0 5px 2px rgb(77, 77, 77);
+    -moz-box-shadow: 0 0 5px 2px rgb(65, 64, 64);
+    box-shadow: 0 0 15px 5px rgb(226, 226, 226);
+}
+
+.about-me-summary {
+   /* width: 60%; */
+   max-width: 500px;
+   margin-right: 120px;
+   line-height: 1.5;
+}
+
+.about-me-basic {
+   justify-content: left;
+}
+.about-me-data {
+   /* width: 40%; */
+   /* margin-right: auto; */
+   margin-top: 20px;
+   /* margin-left: 50px; */
+   line-height: 2;
+}
+
+.professional-skills {
+   display: flex;
+   flex-direction: row;
+   padding-top: 20px;
+   margin-bottom: 40px;
+   padding: 10px;
+   border: 1px solid rgb(235, 235, 235); 
+   -webkit-box-shadow: 0 0 5px 2px rgb(77, 77, 77);
+    -moz-box-shadow: 0 0 5px 2px rgb(65, 64, 64);
+    box-shadow: 0 0 15px 5px rgb(226, 226, 226);
+}
+
+.skills {
+   padding: 20px;
+   line-height: 2;
+   justify-content: center;
+}
+
+.skills-more {
+   padding: 20px;
+   line-height: 2;
+   justify-content: center;
+}
+
+.projects {
+   padding-top: 20px;
+   margin-bottom: 40px;
+   padding: 10px;
+   border: 1px solid rgb(235, 235, 235); 
+   -webkit-box-shadow: 0 0 5px 2px rgb(77, 77, 77);
+    -moz-box-shadow: 0 0 5px 2px rgb(65, 64, 64);
+    box-shadow: 0 0 15px 5px rgb(226, 226, 226);
+}
+
+.project-content {
+   padding: 20px;
+}
+
+.work-expirences {
+   padding-top: 20px;
+   margin-bottom: 40px;
+   padding: 10px;
+   border: 1px solid rgb(235, 235, 235); 
+   -webkit-box-shadow: 0 0 5px 2px rgb(77, 77, 77);
+    -moz-box-shadow: 0 0 5px 2px rgb(65, 64, 64);
+    box-shadow: 0 0 15px 5px rgb(226, 226, 226);
+}
