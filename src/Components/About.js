@@ -1,7 +1,7 @@
 import './About.css';
 import Collapsible from './Collapsible';
-
-
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 
 const About = () => {
@@ -11,6 +11,8 @@ const About = () => {
             <span className="header-text">
                <h1>Laura Swart</h1>
                <p>R&D Software Engineer and Embedded Developer</p>
+               <a rel="stylesheet" href="https://www.linkedin.com/in/laura-r-swart/"><AiFillLinkedin size={40}/></a>
+               <a rel="stylesheet" href="https://github.com/lrswart/laura-website/"><AiFillGithub size={40}/></a>
             </span>            
          </div>
          <div className="about-me-panel">
@@ -29,7 +31,6 @@ const About = () => {
                   <li>Home: Santa Rosa, CA</li>
                   <li>Email: lauraswart24@gmail.com</li>
                   <li>Phone: (253) 225-4804</li>
-                  <li>LinkedIn: <a rel="stylesheet" href="https://www.linkedin.com/in/laura-r-swart/">laura-r-swart</a></li>
                </ul>
             </div>
 
