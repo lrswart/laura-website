@@ -19,14 +19,14 @@ const About = () => {
             <div className="about-me-summary">
                <h4 className='about-me-title'>About me</h4>
                <p className='about-me-content'>
-                <b>Hello</b>, I am an embedded software developer with over four years of experience in the field. 
+                <b>Hello</b>, I am an embedded software developer with over five years of experience in the field. 
                 I have a strong background in C# and C++ programming. I am the lead hardware
                 control engineer and I develop along side an interdisciplinary team of hardware, FPGA, and production engineers. 
                </p>              
             </div>
             <div className="about-me-data">
                <h4 className='about-me-basic'>Basic Information</h4>
-               <ul>
+               <ul className='about-me-list'>
                   <li>Age: 27</li>
                   <li>Home: Santa Rosa, CA</li>
                   <li>Email: lauraswart24@gmail.com</li>

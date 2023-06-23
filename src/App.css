@@ -6,8 +6,12 @@
   /* background-color: rgb(22,34,46); */
 }
 
-.components {
+.home {
+  background-color: rgb(22,34,46);
+}
+
+/* .components {
   background-color: rgb(22,34,46);
   margin: 0;
   padding: 0;
-}
+} */

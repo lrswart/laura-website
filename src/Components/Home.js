@@ -6,26 +6,26 @@ import Slider from './Slider';
 
 const Home = () => {
    return ( 
-      <div>
+      <div className='home'>
          <Hero imageSrc={ landingImg } />
       
          <div className="components">
-         <Slider 
-         image={ lauraImg } 
-         title ={ "Ahoy there!" } 
-         subtitle={ "About me"}
-         />
-         <Slider 
-         image={ droneImg } 
-         title ={ "SkyFox Project" } 
-         subtitle={ "FieldFox on a Drone"}
-         flipped={true}
-         />
-         <Slider 
-         image={ landingImg } 
-         title ={ "Volunteering" } 
-         subtitle={ "Current and past volunteer involvement"}
-         />
+            <Slider 
+            image={ lauraImg } 
+            title ={ "Ahoy there!" } 
+            subtitle={ "About me"}
+            />
+            <Slider 
+            image={ droneImg } 
+            title ={ "SkyFox Project" } 
+            subtitle={ "FieldFox on a Drone"}
+            flipped={true}
+            />
+            <Slider 
+            image={ landingImg } 
+            title ={ "Volunteering" } 
+            subtitle={ "Current and past involvement"}
+            />
          </div>
       </div>
     );
